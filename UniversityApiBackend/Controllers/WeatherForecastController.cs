@@ -4,7 +4,11 @@ namespace UniversityApiBackend.Controllers
 {
     [ApiController]
 <<<<<<< HEAD
+<<<<<<< HEAD
     [Route("[controller]")] // localhost:7204/WeatherForecast
+=======
+    [Route("[controller]")]
+>>>>>>> 2e7232a633bf4a597ef4321da9869b479b256789
 =======
     [Route("[controller]")]
 >>>>>>> 2e7232a633bf4a597ef4321da9869b479b256789
@@ -13,8 +17,13 @@ namespace UniversityApiBackend.Controllers
         private static readonly string[] Summaries = new[]
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
+=======
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    };
+>>>>>>> 2e7232a633bf4a597ef4321da9869b479b256789
 =======
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
@@ -28,7 +37,10 @@ namespace UniversityApiBackend.Controllers
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         //Method: GET => Get to localhost:7204/WeatherForecast
+=======
+>>>>>>> 2e7232a633bf4a597ef4321da9869b479b256789
 =======
 >>>>>>> 2e7232a633bf4a597ef4321da9869b479b256789
         [HttpGet(Name = "GetWeatherForecast")]
